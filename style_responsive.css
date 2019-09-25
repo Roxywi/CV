@@ -1,0 +1,102 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.blocpage
+{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.bandeau
+{
+    max-width: 25vw;
+   height: 200vh;
+   padding: 1em;
+   background-color: rgb(180, 173, 173);
+   opacity: 0.5px; 
+}
+
+.contenu
+{
+    padding: 1em;
+}
+
+
+h1
+{
+    text-align: center;
+}
+
+
+.fonction
+{
+    text-align: center;
+    
+
+}
+
+.citation
+{
+    text-align: center;
+}
+
+header
+{
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+    justify-content: center;
+}
+figure
+{
+
+}
+
+.formation
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.prof
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.sections
+{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   align-items: baseline; 
+   align-content: space-around;
+}
+.sections h2 {
+    text-align: center;
+}
+
+@media screen and (max-width:1024px)
+{
+    .bandeau {
+        display: none;
+    }
+
+    .sections {
+        flex-direction: column;
+    }
+}
+
+h1, h3
+{
+    color: red;
+}
+
+h2, h4
+{
+    color: rgb(78, 75, 75);
+}
